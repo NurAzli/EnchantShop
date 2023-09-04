@@ -46,7 +46,7 @@ class InvMenu implements InvMenuTypeIds{
 		};
 	}
 
-	function public InvMenuType $type;
+	const public InvMenuType $type;
 	protected ?string $name = null;
 	protected ?Closure $listener = null;
 	protected ?Closure $inventory_close_listener = null;

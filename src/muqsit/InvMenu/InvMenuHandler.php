@@ -11,7 +11,7 @@ use muqsit\Invmenu\type\InvMenuTypeRegistry;
 use pocketmine\plugin\Plugin;
 use pocketmine\Server;
 
-final class InvMenuHandler{
+class InvMenuHandler final{
 
 	private static ?Plugin $registrant = null;
 	private static InvMenuTypeRegistry $type_registry;
